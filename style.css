@@ -17,6 +17,7 @@ body {
   border: none;
   border-radius: 6px;
   transition: background 0.3s;
+  width: 300px;
 }
 
 #choices button:hover {
@@ -43,4 +44,12 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+canvas {
+  background: #333;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #555;
+  border-radius: 10px;
 }
