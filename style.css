@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #222;
+  color: #eee;
+  padding: 20px;
+}
+
+#choices button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background: #444;
+  color: #eee;
+  border: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+#choices button:hover {
+  background: #666;
+}
+
+#power-display, #stage-display {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.3em;
+  min-height: 40px;
+}
+
+#restart-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  font-size: 1.2em;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
